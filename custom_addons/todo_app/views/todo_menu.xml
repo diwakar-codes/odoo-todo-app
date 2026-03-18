@@ -1,0 +1,11 @@
+<odoo>
+    <menuitem id="todo_main_menu"
+              name="To-Do"
+              sequence="10"/>
+
+    <menuitem id="todo_task_menu"
+              name="My Tasks"
+              parent="todo_main_menu"
+              action="todo_task_action"
+              sequence="1"/>
+</odoo>
